@@ -4,6 +4,7 @@ title: "Understanding Tensorflow versions"
 date: 2017-08-02
 ---
 
-I'll start saying that there is two levels of Tensorflow. The normal one where we have to set up placeholders, variables and sessions to train and test and the high-level one.
-I was working with the first one most of the time for sequence classification. Then, I moved to Time Series prediction (or regression) and I couldn't find examples  that weren't using the second level (that seems mucho more to scikit Fit and Evaluate functions).
-The question is also how to more parameters to the model (say batch size). It just receives 'features' and 'targets' as specified in this Yuan Tang's blog [here](http://terrytangyuan.github.io/2016/06/09/scikit-flow-v09/).
+Empezaré diciendo que el hecho de encontrar diferentes ejemplos en Tensorflow se debe no sólo a la creación de nuevas versiones sino también a dos niveles diferentes de uso. Cuando empecé con Tensorflow encontré más ejemplos de "bajo nivel". Si bien TensorFlow ya envuelve la creación y operación entre vectores y matrices, el bajo nivel que describo aquí se relaciona a los legos con que podemos jugar para constuir la arquitectura de Deep Learning que deseemos. Meses después al buscar ejemplos de otras arquitecturas (para predicción por ejemplo) encuentro más páginas, blogs, etc. del uso del API de TensorFlow que es a su vez un nivel más alto de abstracción que permite combinar bloques más grandes de legos (ya definidos).
+Además de el alto nivel de abstracción que nos provee con el módulo tensorflow.contrib, más conocido como learn, existen varias librerías que encapsulan aún más su uso. Tales son tflearn, polyaxon, etc.
+
+Por otro lado, una de las funcionalidades que buscaba para indicar el tamaño del batch para cada etapa (train, evaluate, predict) no aparecía en muchos ejemplos. Por fin, el Yuan Tang's blog [here](http://terrytangyuan.github.io/2016/06/09/scikit-flow-v09/) me mostró cómo.
