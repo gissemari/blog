@@ -1,3 +1,5 @@
 name: Gissella Bejarano
 markdown: kramdown
 theme: jekyll-theme-cayman
+gems: 
+  - jekyll-multiple-languages-plugin
