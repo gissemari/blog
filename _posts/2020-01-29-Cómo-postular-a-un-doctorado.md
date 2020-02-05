@@ -3,27 +3,28 @@ layout: post
 title: "7 pasos para postular a un programa de doctorado"
 date: 2020-01-29
 ---
-Últimamente estoy recibiendo varios correos y preguntas sobre cómo hacer un doctorado en EEUU, más específicamente en ciencias de la computación. Me encanta responder los correos que me escriben las personas que me conocen pero tal vez hayan otras personas que también se beneficiarían de estas respuestas y por eso quise hacer este post. Resumí mi experiencia en 7 pasos, tal vez leyendo luego sus comentarios puede detallar más algunos aquí o en nuevos posts:
+<p align="justify">
+Últimamente estoy recibiendo varios correos y preguntas sobre cómo hacer un doctorado en EEUU, más específicamente en ciencias de la computación. Me encanta responder los correos que me escriben las personas que me conocen pero tal vez hayan otras personas que también se beneficiarían de estas respuestas y por eso quise hacer este post. Resumí mi experiencia en 7 pasos, tal vez leyendo luego sus comentarios puedo detallar más algunos aquí o en nuevos posts:
 
-1. Pregúntate si de verdad quieres hacer un doctorado
+**1. Pregúntate si de verdad quieres hacer un doctorado**<br/>
 Como toda meta, emprendimiento o iniciativa que tenemos en la vida, antes de empezarla debemos evaluarla. Conversa con otros estudiantes de doctorado o personas que ya han obtenido el grado y pregúntales qué tal su experiencia, las ventajas y desventajas, lo que más les gusta o les gustó de su doctorado y lo que menos les ha gustado. De esta manera podrás tener más detalles de si este camino calza con las metas futuras (más allá del doctorado) que tienes o si confirmas que lo quieres hacer por el simple hecho de hacerlo.
 
-2. Escoge un área de interés
+**2. Escoge un área de interés**<br/>
 Ciencias de la computación tiene muchas áreas de investigación como: machine learning, ciberseguridad, sistemas operativos, robótica, high performance computing, etc. Particularmente, recomendaría escoger un área que te apasione y que a la vez tenga una buena proyección de desarrollo.
 
-3. Buscar universidades/profesores
+**3. Buscar universidades/profesores**<br/>
 Luego de escoger el área de especialización, navega por la página de la universidad y o por la página de los profesores en el departamento de ciencias de la computación o de ingeniería electrónica (CS, EE, EECS por sus siglas en inglés). Usualmente las facultades como las conocemos en español equivalen a los Schools en inglés, así que puedes entrar a la página de Schools y luego buscar el departamento de ciencias de la computación. Usualmente, los detalles del programa también se encuentran en el menú de aplicación a la universidad (Application) y el submenú Graduate students o algo similar. Los departamentos también listan a sus profesores usualmente en un submenú Faculty or Research Faculty. Casi todos los profesores que enseñan tienen a su vez una línea de investigación, un laboratorio y su página web.
 Indiscutiblemente, todos quisiéramos estar en las universidades más top y trabajar con los profesores más top. Sin embargo, aconsejo que también postules a universidades que tal vez no estén en el top ranking. Tenemos la idea de que la enseñanza y el networking de universidades top son incomparables pero lo cierto es que también hay muy buenos profesores en otras universidades. Además, lo que quieras hacer después del doctorado se va a basar en los proyectos que has trabajado, los retos y resultados obtenidos plasmados o no en una publicación o paper.
 
-4. Leer publicaciones de los profesores con los que quisieras trabajar
+**4. Leer publicaciones de los profesores con los que quisieras trabajar**<br/>
 El leer algunos papers de los profesores te da una base o al menos la intuición de los temas que le interesan a el/la profesor(a). Replicar sus resultados, comentarles sobre alguna idea adicional que quisieras implementar relacionada a sus papers es lo que más le puede interesar.
 
-5. Leer sobre los requerimientos para las universidades/profesores
+5. Leer sobre los requerimientos para las universidades/profesores**<br/>
 Algunos profesores advierten explícitamente en sus páginas que no les escriban si están aplicando a la universidad. Usualmente ellos esperan a que uno ingrese por la ruta regular y cuando recién eres un alumno aceptado conversan contigo. Algunos otros no colocan esta restricción o al contrario te invitan a escribirles si tienes la intención de trabajar con ellos. De cualquiera de las formas, lee cuidadosamente lo que coloca en su página web. Otra idea para empezar a contactarlos puede ser escribirles a sus estudiantes de postgrado, replicar también sus papers y preguntarles detalles sobre la data y/o implementación. Recomiendo tratar de agotar todas las posibilidades en las que tú mismo(a) puedes implementarlo sin preguntas y luego escribirles con preguntas mucho más intersantes.
 
-6. Buscar financiamiento
+**6. Buscar financiamiento**<br/>
 Si eres una persona privilegiada para poder costearte tus estudios de postgrado, existen becas muy reconocidas y muy competitivas también a las que puedes aplicar. Por ejemplo para EEUU está la beca Fulbright, para Europa tienes DAAD (Alemania), Erasmus Mundus y para UK la Chevenning. Si no consigues estas becas y quieres estudiar un doctorado, no te preocupes. Casi todas las universidades financian los programas de doctorado. A cambio, te solicitan trabajar como profesor asistente (conocidos también como jefe de prácticas) o asistente de investigación (si tu profesor tiene un grant o financiamiento ganado).
 
-7. Aplicar y buscar cartas de recomendación
+**7. Aplicar y buscar cartas de recomendación**<br/>
 Usualmente las aplicaciones para programas de doctorado en EEUU son en diciembre para iniciar en el semestre que ellos llaman Fall (Otoño) o segundo semestre. Alguna universidades abren sus postulaciones también en marzo o abril para que sus ingresantes inicien sus estudios en el semestre de primavera (Spring) o primer semestre del año. Sugiero que a pesar de no encontrarte totalmente listo para aplicar, simules una aplicación. Es decir, llenes todos los formularios y documentos que se solicitan en las páginas de aplicación de la universidad. De esta forma, cuando realmente estés listo ya habrás experimentado reunir todos estos documentos. Una de las cosas que se solicita a menudo son 2 o 3 cartas de recomendación. Estas cartas pueden ser de jefes actuales o pasados y de profesores. Particularmente pienso que al menso debes incluir la carta de un profesor o profesora. Ya sea uno(a) con la que tomaste algún curso que te gustó mucho, sacaste buenas notas o aún mejor con la que hiciste tu tesis. A veces creemos que los trabajos y proyectos que hacemos en la universidad tienen poco valor o no son tan significativos. Debemos olivdarnos de este pensamiento y tratar de exprimir la experiencia de estos proyectos e identificar cuál es el conocimiento que aplicaste y/o aprendiste para llevarlo a cabo. Coloca esos detalles en tu "statement of purpose", otro documento que usualmente se solicita también.
-
+</p>
