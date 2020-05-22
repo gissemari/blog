@@ -34,5 +34,4 @@ Debido a algunos valles. Se puede concluir que en alguna departamento-provincia 
 <b>6. Tipo de prueba</b><br/>
 Hay menos pruebas PCR hechas, comparadas con el número de PR. Las PCR parecen tener un ciclo bastente predecible. En cambio las PR parece<br/>
 
-<br/>
 </p>
