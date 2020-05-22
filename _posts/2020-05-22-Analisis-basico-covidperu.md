@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Análisis para preprocesamiento de data COVID-19 de Perú"
-date: 2020-01-29
+date: 2020-05-22
 ---
 <p align="justify">
 La calidad de la data es un tema importante. Y algunas instancias con datos ilegibles podrían no significar o impactar mucho en el análisis global. Sin embargo, cuando abrimos los datos por departamento estos podrían impactar más o menos:<br/>
@@ -14,12 +14,12 @@ también contiene los mismos problemas que la fecha de nacimiento, mezcla entre 
 Ambas fechas cuentan con instancias donde mes y día se han intercalado. Es fácil confirmar esto porque hay registros de pruebas después de mayo del 2020, es decir que no han sucedido aún. La solución aquí es identificar estas instancias, pasarlas a string, intercambiar dia y mes y volverlas tipo de dato datetime de nuevo.<br/>
 Hay algunos dias de enero y febrero con registros y no necesariamente por confusi[on en mes/dia, llegando incluso a valores alrededor de 500. Tabla 1.<br/>
 
-2020-01-02	2<br/>
+2020-01-02	  2<br/>
 2020-01-04	444<br/>
 2020-01-05	581<br/>
-2020-01-06	1<br/>
-2020-01-07	2<br/>
-2020-01-27	2<br/>
+2020-01-06	  1<br/>
+2020-01-07	  2<br/>
+2020-01-27	  2<br/>
 
 <b>3. Provincia, Distritos</b><br/>
 Algunas nombres están escritos con una ligera diferencia, acento u otra letra y esto hace que se conviertan en una nueva instancia. Ejemplo: 'BONGARA', 'BONGARÁ'<br/>
@@ -28,13 +28,13 @@ Algunas nombres están escritos con una ligera diferencia, acento u otra letra y
 En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos valores que generalmente se usan.<br/>
 
 <b>5. No se hacen pruebas los domingos</b><br/>
-ADebido a algunos valles. Se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
+Debido a algunos valles. Se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
 
-<img src="valleysSundays.png" alt="Italian Trulli">
+<img src="images/covid/valleysSundays.png" alt="Nuevos casos con valles cada 7 dias, los domingos">
 
 <b>6. Tipo de prueba</b><br/>
 Hay menos pruebas PCR hechas, comparadas con el número de PR. Las PCR parecen tener un ciclo bastente predecible. En cambio las PR parece<br/>
 
-<img src="testType.png" alt="Italian Trulli">
+<img src="images/covid/testType.png" alt="Nuevos casos por tipo de prueba">
 
 </p>
