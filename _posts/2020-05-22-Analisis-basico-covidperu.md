@@ -13,18 +13,18 @@ Ces una variable que aporta la edad y por tanto el riesgo de las personas de con
 <b>2. Fecha de Prueba</b><br/>
 también contiene los mismos problemas que la fecha de nacimiento, mezcla entre guiones y diagonales. Afortunadamente la función to_datetime() de pandas identifica ambas.<br/>
 Ambas fechas cuentan con instancias donde mes y día se han intercalado. Es fácil confirmar esto porque hay registros de pruebas después de mayo del 2020, es decir que no han sucedido aún. La solución aquí es identificar estas instancias, pasarlas a string, intercambiar dia y mes y volverlas tipo de dato datetime de nuevo.<br/>
-Hay algunos dias de enero y febrero con registros y no necesariamente por confusi[on en mes/dia, llegando incluso a valores alrededor de 500. Tabla 1.<br/>
+Hay algunos dias de enero y febrero con registros y no necesariamente por confusi[on en mes/dia, llegando incluso a valores alrededor de 500. Ejemplos en la siguiente tabla.<br/>
 
-<!--
+
 2020-01-02	  2<br/>
 2020-01-04	444<br/>
 2020-01-05	581<br/>
 2020-01-06	  1<br/>
 2020-01-07	  2<br/>
 2020-01-27	  2<br/>
--->
 
- <table style="width:20%">
+<!--
+ <table style="width:30%">
   <tr>
     <th>FECHA_PRUEBA</th>
     <th>CONTADOR</th>
@@ -51,7 +51,7 @@ Hay algunos dias de enero y febrero con registros y no necesariamente por confus
   </tr>
 </table> 
 <br/>
-
+-->
 
 
 <b>3. Provincia, Distritos</b><br/>
