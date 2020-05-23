@@ -30,10 +30,10 @@ En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos v
 
 
 ![this screenshot](https://github.com/gissemari/blog/blob/master/images/covid/valleysSundays.png)
-
 ![this screenshot2](/images/covid/valleysSundays.png)
 
-![this screenshot3](../images/covid/valleysSundays.png)
+![this screenshot3](../../../images/covid/valleysSundays.png)
+![this screenshot3](../../../images/covid/testType.png)
 
 
 
