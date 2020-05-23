@@ -15,26 +15,47 @@ también contiene los mismos problemas que la fecha de nacimiento, mezcla entre 
 Ambas fechas cuentan con instancias donde mes y día se han intercalado. Es fácil confirmar esto porque hay registros de pruebas después de mayo del 2020, es decir que no han sucedido aún. La solución aquí es identificar estas instancias, pasarlas a string, intercambiar dia y mes y volverlas tipo de dato datetime de nuevo.<br/>
 Hay algunos dias de enero y febrero con registros y no necesariamente por confusi[on en mes/dia, llegando incluso a valores alrededor de 500. Tabla 1.<br/>
 
+<!--
 2020-01-02	  2<br/>
 2020-01-04	444<br/>
 2020-01-05	581<br/>
 2020-01-06	  1<br/>
 2020-01-07	  2<br/>
 2020-01-27	  2<br/>
+-->
+ <table style="width:100%">
+  <tr>
+    <th>FECHA_PRUEBA</th>
+    <th>CONTADOR</th>
+  </tr>
+  <tr>
+    <td>2020-01-02</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>2020-01-04</td>
+    <td>444</td>
+  </tr>
+   <tr>
+    <td>2020-01-05</td>
+    <td>581</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+   <tr>
+    <td>2020-01-27</td>
+    <td>2</td>
+  </tr>
+</table> 
+
 
 <b>3. Provincia, Distritos</b><br/>
 Algunas nombres están escritos con una ligera diferencia, acento u otra letra y esto hace que se conviertan en una nueva instancia. Ejemplo: 'BONGARA', 'BONGARÁ'<br/>
 
 <b>4. Sexo</b><br/>
 En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos valores que generalmente se usan.<br/>
-
-
-![this screenshot](https://github.com/gissemari/blog/blob/master/images/covid/valleysSundays.png)
-![this screenshot2](/images/covid/valleysSundays.png)
-
-![this screenshot3](../../../images/covid/valleysSundays.png)
-![this screenshot3](../../../images/covid/testType.png)
-
 
 
 <b>5. Disminuyen las pruebas los domingos</b><br/>
