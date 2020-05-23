@@ -27,11 +27,22 @@ Algunas nombres están escritos con una ligera diferencia, acento u otra letra y
 <b>4. Sexo</b><br/>
 En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos valores que generalmente se usan.<br/>
 
-<b>5. No se hacen pruebas los domingos</b><br/>
+
+![this screenshot](https://github.com/gissemari/blog/blob/master/images/covid/valleysSundays.png)
+
+![this screenshot2](/images/covid/valleysSundays.png)
+
+![this screenshot3](../images/covid/valleysSundays.png)
+
+
+
+<b>5. Disminuyen las pruebas los domingos</b><br/>
 Debido a algunos valles. Se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
+<img src="images/covid/valleysSundays.png" alt="Nuevos casos con valles cada 7 dias, los domingos">
 
 <br/>
 <b>6. Tipo de prueba</b><br/>
 Hay menos pruebas PCR hechas, comparadas con el número de PR. Las PCR parecen tener un ciclo bastente predecible. En cambio las PR parece<br/>
+<img src="images/covid/testType.png" alt="Nuevos casos por tipo de prueba">
 
 </p>
