@@ -8,12 +8,12 @@ Este post busca realizar un análisis parcial y básico para el preprocesamiento
 La calidad de la data es un tema importante. Y algunas instancias con datos ilegibles podrían no significar o impactar mucho en el análisis global. Sin embargo, cuando abrimos los datos por departamento estos podrían impactar más o menos:<br/>
 
 <b>1. Fecha de Nacimiento</b><br/>
-Ces una variable que aporta la edad y por tanto el riesgo de las personas de contraer la enfermedad. Tiene mezcladas fechas con guiones y diagonales.<br/>
+Es una variable que aporta la edad y por tanto el riesgo de las personas de contraer la enfermedad. Tiene mezcladas fechas con guiones y diagonales.<br/>
 
 <b>2. Fecha de Prueba</b><br/>
 también contiene los mismos problemas que la fecha de nacimiento, mezcla entre guiones y diagonales. Afortunadamente la función to_datetime() de pandas identifica ambas.<br/>
 Ambas fechas cuentan con instancias donde mes y día se han intercalado. Es fácil confirmar esto porque hay registros de pruebas después de mayo del 2020, es decir que no han sucedido aún. La solución aquí es identificar estas instancias, pasarlas a string, intercambiar dia y mes y volverlas tipo de dato datetime de nuevo.<br/>
-Hay algunos dias de enero y febrero con registros y no necesariamente por confusi[on en mes/dia, llegando incluso a valores alrededor de 500. Ejemplos en la siguiente tabla.<br/>
+Hay algunos dias de enero y febrero con registros y no necesariamente por confusión en mes/dia, llegando incluso a valores alrededor de 500. Ejemplos en la siguiente tabla.<br/>
 
 
 2020-01-02	  2<br/>
@@ -62,12 +62,12 @@ En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos v
 
 
 <b>5. Disminuyen las pruebas los domingos</b><br/>
-Debido a algunos valles. Se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
+Debido a algunos valles, se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
 <img src="../../../images/covid/valleysSundays.png" alt="Nuevos casos con valles cada 7 dias, los domingos">
 
 <br/>
 <b>6. Tipo de prueba</b><br/>
-Hay menos pruebas PCR hechas, comparadas con el número de PR. Las PCR parecen tener un ciclo bastente predecible. En cambio las PR parece<br/>
+Hay menos pruebas PCR hechas, comparadas con el número de PR. Ambos tipos parecen tener un ligero patrón de acuerdo el día de la semana.<br/>
 <img src="../../../images/covid/testType.png" alt="Nuevos casos por tipo de prueba">
 
 </p>
