@@ -4,6 +4,7 @@ title: "Análisis para preprocesamiento de data COVID-19 de Perú"
 date: 2020-05-22
 ---
 <p align="justify">
+Este post busca realizar un análisis parcial y básico para el preprocesamiento de los datos de acceso libre de los nuevos contagios en Perú del COVID-19. He dejado en este [repositorio](https://github.com/gissemari/covid19Peru) un notebook en jupyter para que se puedan apreciar mejor los pasos que seguí.
 La calidad de la data es un tema importante. Y algunas instancias con datos ilegibles podrían no significar o impactar mucho en el análisis global. Sin embargo, cuando abrimos los datos por departamento estos podrían impactar más o menos:<br/>
 
 <b>1. Fecha de Nacimiento</b><br/>
