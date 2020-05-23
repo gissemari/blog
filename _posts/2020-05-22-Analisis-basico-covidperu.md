@@ -23,7 +23,8 @@ Hay algunos dias de enero y febrero con registros y no necesariamente por confus
 2020-01-07	  2<br/>
 2020-01-27	  2<br/>
 -->
- <table style="width:100%">
+
+ <table style="width:20%">
   <tr>
     <th>FECHA_PRUEBA</th>
     <th>CONTADOR</th>
@@ -49,6 +50,8 @@ Hay algunos dias de enero y febrero con registros y no necesariamente por confus
     <td>2</td>
   </tr>
 </table> 
+<br/>
+
 
 
 <b>3. Provincia, Distritos</b><br/>
