@@ -27,6 +27,13 @@ Algunas nombres están escritos con una ligera diferencia, acento u otra letra y
 <b>4. Sexo</b><br/>
 En minúsculas y mayúsculas hacen que se creen dos otras instancias a los dos valores que generalmente se usan.<br/>
 
+![this screenshot](https://github.com/gissemari/blog/blob/master/images/covid/valleysSundays.png)
+
+![this screenshot2](/images/covid/valleysSundays.png)
+
+![this screenshot2](../images/covid/valleysSundays.png)
+
+
 <b>5. No se hacen pruebas los domingos</b><br/>
 Debido a algunos valles. Se puede concluir que en alguna departamento-provincia se hacen menos pruebas los días domingos (cada 7 dias)<br/>
 <img src="images/covid/valleysSundays.png" alt="Nuevos casos con valles cada 7 dias, los domingos">
