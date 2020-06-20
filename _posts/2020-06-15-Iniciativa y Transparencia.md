@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Iniciativa y transparencia"
-date: 2020-01-29
+date: 2020-06-15
 ---
 <p align="justify">
 Últimamente estoy interactuando con diferentes comunidades y personas con las que empiezo distintos proyectos y colaboraciones. Quiero comentar cómo me sorprende gratamente cuando algunas tienen mucho más iniciativas que otras. Además de eso, si no sólo tienen la iniciativa sino que además comparten contigo un documento breve con resúmenes, argumentos, planes y avances, uno se siente más confiado aún del trabajo en equipo. Creo que estas dos características, iniciativa y transparencia son de las habilidades blandas que más me gustaría tener en un equipo. <br/>
