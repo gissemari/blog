@@ -38,12 +38,12 @@ ul.posts {
     font-size: 1.5em;
 }
 
-ul.post-list li {
+div.gyr ul li {
     list-style: none;
     text-indent: -5px;
 }
 
-ul.post-list {
+div.gyr ulst {
     font-size: 1.5em;
     color: #333;
 }
