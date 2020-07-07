@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Iniciativa y transparencia"
+title: "Iniciativa y Transparencia"
 date: 2020-06-15
 ---
 <p align="justify">

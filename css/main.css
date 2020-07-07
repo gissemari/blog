@@ -36,6 +36,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    justify-content: space-between;
 }
 
 div.gyr ul {
@@ -52,4 +53,8 @@ div.gyr ul li {
 div.gyr ul > li:before {
     content: "-";
     text-indent: -5px;
+}
+
+div.gyr p {
+    text-align: justify;
 }
