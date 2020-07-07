@@ -48,6 +48,7 @@ div.gyr ul {
 
 div.gyr ul li {
     text-indent: -5px;
+    text-align: justify;
 }
 
 div.gyr ul > li:before {
